@@ -50,6 +50,7 @@ p {
   height: 300px;
   -webkit-box-shadow:inset 0px 0px 0px 1px #000000;
   -moz-box-shadow:inset 0px 0px 0px 1px #000000;
+  overflow: auto;
 }
 
 .titlebox {
@@ -60,7 +61,7 @@ p {
 .contentbox {
   margin-top: 60px;
   font-family: Helvetica;
-
+  margin-bottom: 15px;
 }
 /********** Large devices only **********/
 @media (min-width: 992px) {
